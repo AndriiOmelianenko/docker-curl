@@ -1,2 +1,14 @@
 # docker-curl
-light weight container with curl. based on alpine
+light weight docker image with curl. based on alpine
+
+# Build
+
+```
+docker build -t aomelian/curl .
+```
+
+# Usage
+
+```
+docker run --rm aomelian/curl curl <address>
+```
