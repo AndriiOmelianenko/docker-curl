@@ -12,6 +12,9 @@ docker build -t aomelian/curl .
 ```
 docker run --rm aomelian/curl curl <address>
 ```
+```
+kubectl run curl --image=aomelian/curl -it --rm=true --restart=Never -- curl  <address>
+```
 
 # Docker Hub
 
